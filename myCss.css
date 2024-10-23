@@ -1,0 +1,16 @@
+h1 {color:rgb(0, 0, 0);font-size: 25px;}
+I, U {color:blanchedalmond}
+h2, h3, h4, h5, h6 {color :rgb(245, 217, 178)}
+#hijau {text-align: center;
+color:rgb(84, 242, 103);}
+#coklat {text-align: center;
+color:rgb(154, 45, 45);}
+body{background-color: rgb(199, 92, 151);}
+a:hover {background-color: brown; color: wheat}
+h1:hover {background-color: rgb(225, 96, 96); color: wheat}
+img:hover {width: 500px; height: 500px;}
+table {border-collapse: collapse; border: 1px solid black;}
+tr td{ border: 1px solid black;}
+tr:nth-child(even) {background-color: #f2f2f2}
+tr:hover {background-color: red}
+th {border:1px ; padding: 15px; text-align: center; background-color:green; color : white}

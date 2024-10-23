@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>FORM PENDAFTARAN</title>
+    <link type ="text/css" href="csspendaftaran.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
+    </head>
+      <body>
+        <form method="post" name="pendaftaran" action="prosespendaftaran.php">
+        <table>
+            <tr class="judul">
+                <td colspan="2">Form Pendaftaran</td>
+            </tr>
+            <tr>
+            <td class="nama">Nama : </td>
+            <td><input type="text" class="nama" name="Nama"></td>
+        </tr>
+        <tr>
+            <tr>
+            <td class="nama">Alamat : </td><td><input type="text" class="nama" name="Alamat"></td>
+        </tr>
+        <tr>
+            <td class="nama">Jenis Kelamin  : </td><td class="nama"><input type="radio" class="nama" name="jk" value="Pria">Pria 
+            <input type="radio" class="nama" name="jk" value="Wanita">Wanita</td>
+        </tr>
+        <tr><td class="nama">Pekerjaan : </td>
+            <td class="nama"><select name="pekerjaan">
+            <option value="Pelajar">Pelajar</option>
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Pegawai">Pegawai</option>
+            <option value="Wiraswasta">Wiraswasta</option>
+            </select></td> 
+        </tr>
+        <tr class="judul">
+            <td colspan="2"><input type="submit"
+            value="kirim" name="kirim"></td>
+        </tr>
+        </table>
+        </form>
+        <script src="js/jquery-3.7.1.min.js"> </script>
+        <script src="js/bootstrap.bundle.js"> </script>
+      </body>
+</html>

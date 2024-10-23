@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Input form tampilkan dgn php</title>
+</head>
+<body>
+<!-- form method post dan get, action -> memanggil file php -->
+<form method="post" name="frmMhs" action="proses.php"
+enctype="multipart/form-data">
+Nim : <input type="number" name="txtNim" id="nim"><br/>
+Nama : <input type="text" name="txtNama" id="nama"><br/>
+Prodi : <select name="txtProdi" id="txtProdi">
+<option value="Sistem Informasi">Sistem Informasi</option>
+<option value="Informatika">Informatika</option>
+<option value="Teknik Sipil">Teknik Sipil</option>
+<option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+<option value="Desain Produk">Desain Produk</option>
+<option value="Manajemen">Manajemen</option>
+<option value="Akuntansi">Akuntansi</option>
+<option value="Psikologi">Psikologi</option>
+<option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+</select><br/>
+            Pas Foto : <input type="file" name="fileFoto" id="fileFoto"><br/>    
+            <input type="submit" name="btnSubmit" value="Simpan">
+    </form>
+    </body>
+</html>

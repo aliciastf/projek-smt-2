@@ -1,0 +1,15 @@
+h1 {color: rgb(248, 187, 170); font-size: 50px;}
+I, U {color: rgb(5, 48, 53);}
+h2, h3, h4, h5 {color: floralwhite;}
+
+.judul {
+    text-align: center; 
+    background-color: #72d4c7;
+}
+.nama {
+    background-color: rgba(238, 174, 228, 0.922);
+}
+
+table {border-collapse: collapse; border: 3px solid black;} tr td{ border: 3px solid black;}
+tr:hover {background-color: rgb(233, 244, 175)}
+th {border:1px ; padding: 15px; text-align: center; background-color:rgb(0, 0, 0); color : white}
